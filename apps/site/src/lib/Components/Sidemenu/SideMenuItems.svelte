@@ -33,7 +33,7 @@
    
    </script>
    
-   <div class="navbar-nav w-100 overflow-hidden" style="height: 450px" in:slide ={{duration: 900}} out:slide={{duration: 500}}>
+   <div class="navbar-nav w-100 overflow-hidden bgWhite position-absolute" style="height: 450px" in:slide ={{duration: 900}} out:slide={{duration: 500}}>
     {#each items as item}
    <a href="{item.url}" class="nav-item nav-link" >{item.text}</a>
    {/each}
