@@ -1,8 +1,8 @@
 <script  lang="ts">
 
-	import SideMenuItems from "./SideMenuItems.svelte";
-
-    let showMenu = true;
+	import SideMenuItems from "$lib/Components/Sidemenu/SideMenuItems.svelte";
+    import {page} from "$app/stores"
+    $: showMenu = $page.url.pathname == "/";
 
 function toggleMenu() {
   showMenu = !showMenu;
@@ -20,7 +20,7 @@ function toggleMenu() {
         <h6 class="m-0">Kategoriler</h6>
         <i class="fa fa-angle-down text-dark"></i>
     </div>
-    <nav class="collapse show navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0" id="navbar-vertical">
+    <nav class="collapse show navbar position-absolut bgWhite navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0" id="navbar-vertical">
         
            
          <!--    <div class="nav-item dropdown">

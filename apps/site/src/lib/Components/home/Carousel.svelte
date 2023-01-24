@@ -14,9 +14,7 @@ onMount ( () => {
         animationTimingFunc: "ease"
     })
     .mount()
-}
-
-)
+})
 </script>
 
 <div bind:this={glide} class="glide">

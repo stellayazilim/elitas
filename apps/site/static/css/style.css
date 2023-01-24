@@ -154,12 +154,13 @@ sup {
 a {
   color: #D19C97;
   text-decoration: none;
-  background-color: transparent;
+
 }
 
 a:hover {
   color: #ba6a62;
   text-decoration: underline;
+
 }
 
 a:not([href]):not([class]) {
@@ -9581,4 +9582,9 @@ a.text-dark:hover, a.text-dark:focus {
   100% {
     transform: translateY(-15px);
   }
+}
+
+
+.bgWhite{
+  background-color: #ffffff !important;
 }
