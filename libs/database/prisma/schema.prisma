@@ -1,0 +1,52 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output = "../node_modules/.prisma/client"
+  engineType = "binary"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  
+}
+
+
+model Product {
+  id String @id @default(cuid())
+  name String
+  description String?
+  category Category @relation(fields: [categoryId], references: [id])
+  categoryId String
+  image Image[]
+  documents Document[]
+}
+
+
+model Category {
+  id String @id @default(cuid())
+  name String
+  description String?
+  products Product[]
+ 
+}
+
+model Image {
+  id String @id @default(cuid())
+  src String 
+  alt String
+  product Product @relation(fields: [productId], references: [id])
+  productId String
+}
+
+
+model Document {
+  id String @id @default(cuid())
+  name String
+  description String?
+  url String
+  product Product @relation(fields: [productId], references: [id])
+  productId String
+}
