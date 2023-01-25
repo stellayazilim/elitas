@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "migrate": "prisma generate"
+    "migrate": "prisma generate",
+    "build:dev": "tsc -w"
   },
   "keywords": [],
   "author": "",
