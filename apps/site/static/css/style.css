@@ -3536,29 +3536,7 @@ input[type="button"].btn-block {
   vertical-align: top;
 }
 
-.custom-control-label::before {
-  position: absolute;
-  top: 0.25rem;
-  left: -1.5rem;
-  display: block;
-  width: 1rem;
-  height: 1rem;
-  pointer-events: none;
-  content: "";
-  background-color: #fff;
-  border: #adb5bd solid 1px;
-}
 
-.custom-control-label::after {
-  position: absolute;
-  top: 0.25rem;
-  left: -1.5rem;
-  display: block;
-  width: 1rem;
-  height: 1rem;
-  content: "";
-  background: no-repeat 50% / 50% 50%;
-}
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
@@ -9338,6 +9316,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
+}
+.text-black {
+  color: rgba(0, 0, 0) !important;
 }
 
 .text-white-50 {
