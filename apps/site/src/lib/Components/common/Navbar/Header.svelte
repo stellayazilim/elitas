@@ -8,7 +8,7 @@
 </script>
 
 
-<div class="container-fluid bg-secondary mb-5" style="margin-top: -47px;">
+<div class="container-fluid bg-secondary  mb-5" style="margin-top: -47px;">
     <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
         <h1 class="font-weight-semi-bold text-uppercase mb-3">{$page.data.pageName || filteredNavs?.text}</h1>
         <div class="d-inline-flex">
