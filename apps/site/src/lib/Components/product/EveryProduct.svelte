@@ -1,4 +1,4 @@
-<script context="module" lang="ts" >
+<script  lang="ts" >
 
 import { products } from "$lib/components/product/productsWithCategories";
 
@@ -6,10 +6,6 @@ import { products } from "$lib/components/product/productsWithCategories";
 </script>
 
 
-    
-   
-
-    
     {#each products as product}
         <div class="col-12 mb-3">
             <h3 class="font-weight-semi-bold ml-5" id="{product?.slug}">{product.category}</h3>
