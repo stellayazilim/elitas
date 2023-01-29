@@ -1,5 +1,5 @@
 <script lang="ts">
-	import DropdownItems from "$lib/Components/DropdownBar/DropdownItems.svelte";
+	import DropdownItems from "$lib/components/DropdownBar/DropdownItems.svelte";
 
 /* Dropdown start */
   
