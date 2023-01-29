@@ -1,6 +1,6 @@
 <script  lang="ts">
 
-	import SideMenuItems from "$lib/Components/Sidemenu/SideMenuItems.svelte";
+	import SideMenuItems from "$lib/components/Sidemenu/SideMenuItems.svelte";
     import {page} from "$app/stores"
     $: showMenu = $page.url.pathname == "/";
 
