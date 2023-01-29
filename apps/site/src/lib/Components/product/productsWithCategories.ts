@@ -1,6 +1,7 @@
 export const products = [
     {
         category: 'Buhar Kazanları',
+        slug: "buhar",
         items: [
         {
             name: '4 Çıkışlı',
@@ -42,6 +43,7 @@ export const products = [
     },
     {
         category: 'Paskaralar',
+        slug: "paskar",
         items: [
         {
             name: 'Işıklı Balanserli',
@@ -83,6 +85,7 @@ export const products = [
     },
     {
         category: 'Transfer Baskı Presleri',
+        slug: "transfer",
         items: [
         {
             name: '20-20 Gezer Kafa',
@@ -106,6 +109,7 @@ export const products = [
     },
     {
         category: 'Çakım Makinaları',
+        slug: "cakim",
         items: [
         {
             name: 'Motorlu',
@@ -146,6 +150,7 @@ export const products = [
     },
     {
         category: 'Silter Ütü Grubu',
+        slug: "silters",
         items: [
         {
             name: 'Silter Süper Mini 1 Lt Manometreli',
@@ -199,6 +204,7 @@ export const products = [
     },
     {
         category: 'Mal Taşıma Arabaları',
+        slug: "transpalet",
         items: [
         {
             name: 'Çift Siperli',
@@ -228,6 +234,7 @@ export const products = [
     },
     {
         category: 'Kalite Kontrol Masaları',
+        slug: "qualityco",
         items: [
         {
             name: 'Üstten Işıklı Eğim Ayarlı',
@@ -257,6 +264,7 @@ export const products = [
     },
     {
         category: 'Diğer Ürünler',
+        slug: "digers",
         items: [
         {
             name: 'Yan Dikiş Açma',
@@ -286,6 +294,7 @@ export const products = [
     },
     {
         category: 'Yedek Parça',
+        slug: "yedek",
         items: [
         {
             name: 'Silter SY KF 3722Y Potent Salyangoz',
@@ -332,42 +341,3 @@ export const products = [
         ]
     }
 ]
-
-/* 
-
- //Creating DATABASE
-
-CREATE TABLE categories (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
-);
-
-CREATE TABLE items (
-    id SERIAL PRIMARY KEY,
-    category_id INTEGER REFERENCES categories(id),
-    name VARCHAR(255) NOT NULL,
-    url VARCHAR(255) NOT NULL,
-    description VARCHAR(255) NOT NULL,
-    explanation VARCHAR(255) NOT NULL
-); 
-
-*/
-
-
-/* 
-            //inserting Database 
-
-INSERT INTO categories (name) VALUES ('Buhar Kazanları');
-
-INSERT INTO items (category_id, name, url, description, explanation)
-VALUES 
-(1, '4 Çıkışlı', '/#', 'Buhar Kazanı', ''),
-(1, '3 Çıkışlı', '/#', 'Buhar Kazanı', ''),
-(1, '2 Çıkışlı', '/#', 'Buhar Kazanı', ''),
-(1, 'Doğalgazlı CE Belgeli İgdaş Onaylı', '/#', 'Buhar Jeneratörü', ''),
-(1, '60KW', '/#', 'Buhar Jeneratörü', ''),
-(1, '30KW', '/#', 'Buhar Jeneratörü', '');
-.... 
-
-
-*/

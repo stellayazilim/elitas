@@ -1,6 +1,7 @@
 
 <script lang="ts">
-	import EveryProduct from "./EveryProduct.svelte";
+	import EveryProduct from "$lib/components/product/EveryProduct.svelte";
+	import ShopSidebar from "$lib/components/product/ShopSidebar.svelte";
 
 
 </script>    
@@ -9,67 +10,7 @@
     <div class="container-fluid pt-5">
         <div class="row px-xl-5">
             <!-- Shop Sidebar Start -->
-            <div class="col-lg-3 col-md-12 position-static">
-                <!-- CategoriNav Start -->
-                <div class="border-bottom mb-4 pb-4 mt-5">
-                    <h5 class="font-weight-semi-bold mb-4">Kategori Seçenekleri</h5>
-                    <form>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                             
-                            <label class="custom-control-label" for="Buhar Kazanları">Buhar Kazanları</label>
-                             
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                             
-                            <label class="custom-control-label" for="Paskaralar">Paskaralar</label>
-                             
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                             
-                            <label class="custom-control-label" for="Transfer Baskı Presleri">Transfer Baskı Presleri</label>
-                             
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                             
-                            <label class="custom-control-label" for="Çakım Makinaları">Çakım Makinaları</label>
-                             
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                             
-                            <label class="custom-control-label" for="Leke Temizleme Makinaları">Leke Temizleme Makinaları</label>
-                             
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                             
-                            <label class="custom-control-label" for="Silter Ütü Grubu">Silter Ütü Grubu</label>
-                             
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                             
-                            <label class="custom-control-label" for="Mal Taşıma Arabaları">Mal Taşıma Arabaları</label>
-                             
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                             
-                            <label class="custom-control-label" for="Kalite Kontrol Masaları">Kalite Kontrol Masaları</label>
-                             
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                             
-                            <label class="custom-control-label" for="Diğer Ürünler">Diğer Ürünler</label>
-                             
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                             
-                            <label class="custom-control-label" for="Yedek Parça">Yedek Parça</label>
-                             
-                        </div>
-
-                    </form>
-                </div>
-                <!-- CategoriNav End -->
-
-            </div>
+             <ShopSidebar/>
             <!-- Shop Sidebar End -->
 
 
