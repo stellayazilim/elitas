@@ -3,7 +3,7 @@
 
     import { slide  } from 'svelte/transition'
     import {page} from "$app/stores"
-	import { text } from 'svelte/internal';
+
 	
 
         
@@ -15,7 +15,7 @@
          {   text: "Ürün",
             url: "/product"},
          {text: "Vizyon-Misyon",
-            url: "/visionMission"},
+            url: "/vision-mission"},
          {   text:"İletişim",
             url: "/contact"}
         ]
