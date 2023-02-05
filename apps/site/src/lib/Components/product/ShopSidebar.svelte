@@ -16,52 +16,6 @@
                  
                 </div>
             {/each}
-         
-            <!-- <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                 
-                <label class="custom-control-label" for="Paskaralar">Paskaralar</label>
-                 
-            </div>
-            <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                 
-                <label class="custom-control-label" for="Transfer Baskı Presleri">Transfer Baskı Presleri</label>
-                 
-            </div>
-            <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                 
-                <a class="custom-control-label" href="#cakim">Çakım Makinaları</a>
-                 
-            </div>
-            <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                 
-                <label class="custom-control-label" for="Leke Temizleme Makinaları">Leke Temizleme Makinaları</label>
-                 
-            </div>
-            <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                 
-                <label class="custom-control-label" for="Silter Ütü Grubu">Silter Ütü Grubu</label>
-                 
-            </div>
-            <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                 
-                <label class="custom-control-label" for="Mal Taşıma Arabaları">Mal Taşıma Arabaları</label>
-                 
-            </div>
-            <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                 
-                <label class="custom-control-label" for="Kalite Kontrol Masaları">Kalite Kontrol Masaları</label>
-                 
-            </div>
-            <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                 
-                <label class="custom-control-label" for="Diğer Ürünler">Diğer Ürünler</label>
-                 
-            </div>
-            <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                 
-                <label class="custom-control-label" for="Yedek Parça">Yedek Parça</label>
-                 
-            </div> -->
 
         </form>
     </div>

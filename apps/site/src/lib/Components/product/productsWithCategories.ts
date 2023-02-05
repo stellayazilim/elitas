@@ -133,6 +133,7 @@ export const products = [
     },
     {
         category: 'Leke Temizleme Makinaları',
+        slug: "dirtycleaners*",
         items: [
         {
             name: 'Masa Tipi',
@@ -264,7 +265,7 @@ export const products = [
     },
     {
         category: 'Diğer Ürünler',
-        slug: "digers",
+        slug: "others",
         items: [
         {
             name: 'Yan Dikiş Açma',

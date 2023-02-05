@@ -14,10 +14,10 @@
             url: "/products"},
          {   text: "Ürün",
             url: "/product"},
+         {text: "Vizyon-Misyon",
+            url: "/visionMission"},
          {   text:"İletişim",
-            url: "/contact"},
-            {text: "Vizyon-Misyon",
-            url: "/visionMission"}
+            url: "/contact"}
         ]
   
      
