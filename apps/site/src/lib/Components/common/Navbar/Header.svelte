@@ -1,6 +1,6 @@
 <script lang="ts">
     import {page} from "$app/stores"
-	import {navs} from "$lib/components/DropdownBar/DropdownItems.svelte";
+	import {navs} from "$lib/components/dropdownbar/navs";
     
 
         $: filteredNavs = navs.find(nav => nav.url == $page.url.pathname)

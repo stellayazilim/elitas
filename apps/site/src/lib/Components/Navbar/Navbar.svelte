@@ -1,7 +1,7 @@
 <script lang="ts">
 import Sidemenu from "$lib/components/Sidemenu/Sidemenu.svelte";
 import Carousel from "$lib/components/home/Carousel.svelte";
-import DropdownBar from "$lib/components/DropdownBar/DropdownBar.svelte";
+import DropdownBar from "$lib/components/dropdownbar/DropdownBar.svelte";
 import {page} from "$app/stores"
 
 
