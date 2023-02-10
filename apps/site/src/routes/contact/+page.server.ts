@@ -1,4 +1,4 @@
-import type { ServerLoad } from "@sveltejs/kit";
+import type { ServerLoad,Actions } from "@sveltejs/kit";
 
 export const load :ServerLoad = (() => {
 
@@ -6,3 +6,10 @@ export const load :ServerLoad = (() => {
         pageName: "İletişim"
     }
 }) as ServerLoad
+
+
+export const actions : Actions = {
+    default(){
+        console.log("ananze")
+    } 
+} 
