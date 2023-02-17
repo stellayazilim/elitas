@@ -48,7 +48,7 @@
         event.preventDefault();
         validateForm()
         
-              console.log("Form Çalışıyi");
+        
           
           //input alanları ilk kontrolu geçtiğinde asıl işlevi yapacak kodlar
       }
