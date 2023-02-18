@@ -24,7 +24,8 @@
     <div class="col-lg-3 d-none d-lg-block">
         <a href="/#2" class="text-decoration-none">
             <h1 class="m-0 display-5 font-weight-semi-bold">
-                <span class="text-primary font-weight-bold border px-3 mr-1">E</span>
+                <!-- <span class="text-primary font-weight-bold border px-3 mr-1">E</span> --> 
+                <img src="/img/icon-3.png" style="width: 3.2rem;" alt="Elitaş Logo">
                 Elitaş
             </h1>
         </a>
