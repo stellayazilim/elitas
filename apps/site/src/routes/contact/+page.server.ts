@@ -8,8 +8,3 @@ export const load :ServerLoad = (() => {
 }) as ServerLoad
 
 
-export const actions : Actions = {
-    default(){
-        console.log("ananze")
-    } 
-} 
