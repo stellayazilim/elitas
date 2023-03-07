@@ -53,12 +53,13 @@ model Document {
 
 
 enum Role {
-  Admin
+  Admin,
+  User
 }
 
 model User {
   id String @id @default(cuid())
   email String
   password String
-  role Role @default(Admin)
+  role Role @default(User)
 }
