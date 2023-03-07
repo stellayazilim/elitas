@@ -50,3 +50,16 @@ model Document {
   product Product @relation(fields: [productId], references: [id])
   productId String
 }
+
+
+enum Role {
+  Admin,
+  User
+}
+
+model User {
+  id String @id @default(cuid())
+  email String
+  password String
+  role Role @default(User)
+}
