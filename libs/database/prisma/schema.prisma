@@ -53,7 +53,7 @@ model Document {
 
 
 enum Role {
-  Admin,
+  Admin
   User
 }
 
